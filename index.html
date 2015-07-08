@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>carousel-with-tabs</title>
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
+  <link rel="import" href="bower_components/basic-carousel/basic-carousel.html">
+
+  <style>
+  html {
+    height: 100%;
+  }
+
+  body,
+  button,
+  input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+  }
+
+  body {
+    background: black;
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+  }
+
+  basic-framed-content,
+  [target="child"] {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+  }
+
+  basic-carousel {
+    -webkit-flex: 1;
+    flex: 1;
+  }
+  </style>
+
+</head>
+
+<body unresolved>
+  <template is="dom-bind">
+    <paper-tabs selected="{{selected}}">
+      <paper-tab>Image 1</paper-tab>
+      <paper-tab>Image 2</paper-tab>
+      <paper-tab>Image 3</paper-tab>
+      <paper-tab>Image 4</paper-tab>
+      <paper-tab>Image 5</paper-tab>
+    </paper-tabs>
+    <basic-carousel selected-index="{{selected}}">
+      <img src="http://hosting.component.kitchen/resources/images/image1.jpg" alt="Lake">
+      <img src="http://hosting.component.kitchen/resources/images/image2.jpg" alt="Horses">
+      <img src="http://hosting.component.kitchen/resources/images/image6.jpg" alt="Wheat">
+      <img src="http://hosting.component.kitchen/resources/images/image3.jpg" alt="Mountain">
+      <img src="http://hosting.component.kitchen/resources/images/image7.jpg" alt="Palm tree">
+    </basic-carousel>
+  </template>
+</body>
+
+</html>

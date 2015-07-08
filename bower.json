@@ -1,0 +1,8 @@
+{
+  "name": "carousel-with-tabs",
+  "dependencies": {
+    "basic-carousel": "basic-web-components/basic-carousel#master",
+    "paper-tabs": "PolymerElements/paper-tabs#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.5"
+  }
+}
