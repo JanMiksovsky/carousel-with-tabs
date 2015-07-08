@@ -7,7 +7,9 @@
   <title>carousel-with-tabs</title>
   <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
+  <link rel="import" href="bower_components/basic-arrow-direction/basic-arrow-direction.html">
   <link rel="import" href="bower_components/basic-carousel/basic-carousel.html">
+  <link rel="import" href="bower_components/basic-page-dots/basic-page-dots.html">
 
   <style>
   html {
@@ -57,13 +59,17 @@
       <paper-tab>Image 4</paper-tab>
       <paper-tab>Image 5</paper-tab>
     </paper-tabs>
-    <basic-carousel selected-index="{{selected}}">
-      <img src="http://hosting.component.kitchen/resources/images/image1.jpg" alt="Lake">
-      <img src="http://hosting.component.kitchen/resources/images/image2.jpg" alt="Horses">
-      <img src="http://hosting.component.kitchen/resources/images/image6.jpg" alt="Wheat">
-      <img src="http://hosting.component.kitchen/resources/images/image3.jpg" alt="Mountain">
-      <img src="http://hosting.component.kitchen/resources/images/image7.jpg" alt="Palm tree">
-    </basic-carousel>
+    <basic-arrow-direction target="child" class="overlay" selected-index="{{selected}}">
+      <basic-page-dots target="child">
+        <basic-carousel>
+          <img src="http://hosting.component.kitchen/resources/images/image1.jpg" alt="Lake">
+          <img src="http://hosting.component.kitchen/resources/images/image2.jpg" alt="Horses">
+          <img src="http://hosting.component.kitchen/resources/images/image6.jpg" alt="Wheat">
+          <img src="http://hosting.component.kitchen/resources/images/image3.jpg" alt="Mountain">
+          <img src="http://hosting.component.kitchen/resources/images/image7.jpg" alt="Palm tree">
+        </basic-carousel>
+      </basic-page-dots>
+    </basic-arrow-direction>
   </template>
 </body>
 
