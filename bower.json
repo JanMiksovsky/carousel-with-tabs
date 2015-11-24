@@ -4,8 +4,8 @@
     "basic-arrow-direction": "basic-web-components/basic-arrow-direction#master",
     "basic-carousel": "basic-web-components/basic-carousel#master",
     "basic-page-dots": "basic-web-components/basic-page-dots#master",
-    "paper-tabs": "PolymerElements/paper-tabs#^1.0.0",
-    "polymer": "Polymer/polymer#^1.0.5"
+    "paper-tabs": "PolymerElements/paper-tabs#^1.1.0",
+    "polymer": "Polymer/polymer#^1.2.1"
   },
   "resolutions": {
     "basic-arrow-direction": "master",
