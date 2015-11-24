@@ -4,11 +4,11 @@
   "license": "MIT",
   "main": "basic-page-dots.html",
   "dependencies": {
-    "basic-aspect": "basic-web-components/basic-aspect#master",
-    "polymer": "Polymer/polymer#^1.0.0"
+    "basic-aspect": "basic-web-components/basic-aspect#0.6.3",
+    "polymer": "Polymer/polymer#^1.1"
   },
   "devDependencies": {
-    "basic-framed-content": "basic-web-components/basic-framed-content#master",
+    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.3",
     "web-component-tester": "*"
   },
   "keywords": [
@@ -19,11 +19,11 @@
     "/test/"
   ],
   "homepage": "https://github.com/basic-web-components/basic-page-dots",
-  "_release": "6fb2ef7a26",
+  "_release": "16c38ce4bf",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "6fb2ef7a26353ca2d32d0e0abb82eff43a9c9295"
+    "commit": "16c38ce4bf950a2b08e19f770f1ac6db157bc770"
   },
   "_source": "git://github.com/basic-web-components/basic-page-dots.git",
   "_target": "master",

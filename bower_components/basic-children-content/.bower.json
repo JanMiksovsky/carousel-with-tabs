@@ -1,15 +1,16 @@
 {
   "name": "basic-children-content",
   "description": "Lets a component collective takes as its content the children of the innermost aspect.",
+  "version": "0.6.3",
   "license": "MIT",
   "main": "basic-children-content.html",
   "dependencies": {
-    "basic-aspect": "basic-web-components/basic-aspect#master",
-    "basic-shared": "basic-web-components/basic-shared#master",
-    "polymer": "Polymer/polymer#^1.0.0"
+    "basic-aspect": "basic-web-components/basic-aspect#0.6.3",
+    "basic-shared": "basic-web-components/basic-shared#0.6.3",
+    "polymer": "Polymer/polymer#^1.1"
   },
   "devDependencies": {
-    "basic-framed-content": "basic-web-components/basic-framed-content#master",
+    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.3",
     "web-component-tester": "*"
   },
   "keywords": [
@@ -20,13 +21,13 @@
     "/test/"
   ],
   "homepage": "https://github.com/basic-web-components/basic-children-content",
-  "_release": "7e963e2b91",
+  "_release": "0.6.3",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "7e963e2b91d7f0f5c604310e1ec03cadcd9ab1af"
+    "type": "version",
+    "tag": "v0.6.3",
+    "commit": "e44fc1019a08f1085dbf40a93a7c6ed4154ff6f8"
   },
   "_source": "git://github.com/basic-web-components/basic-children-content.git",
-  "_target": "master",
+  "_target": "0.6.3",
   "_originalSource": "basic-web-components/basic-children-content"
 }

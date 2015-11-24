@@ -1,10 +1,11 @@
 {
   "name": "basic-shared",
   "description": "Static helper function for Basic Web Components",
+  "version": "0.6.3",
   "license": "MIT",
   "main": "basic-shared.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0"
+    "polymer": "Polymer/polymer#^1.1"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -17,13 +18,13 @@
     "/test/"
   ],
   "homepage": "https://github.com/basic-web-components/basic-shared",
-  "_release": "8c5656d073",
+  "_release": "0.6.3",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "8c5656d073d21120cd3ff5ef449ba1bef83ea393"
+    "type": "version",
+    "tag": "v0.6.3",
+    "commit": "d0237b04859ab81bec2421248e1921af6df01b0d"
   },
   "_source": "git://github.com/basic-web-components/basic-shared.git",
-  "_target": "master",
+  "_target": "0.6.3",
   "_originalSource": "basic-web-components/basic-shared"
 }
