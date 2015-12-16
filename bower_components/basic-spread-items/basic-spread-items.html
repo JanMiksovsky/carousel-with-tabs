@@ -26,7 +26,7 @@ component basic-spread-fit.
     }
 
     #spreadContainer ::content > * {
-      object-fit: contain;
+      object-fit: var(--basic-item-object-fit, contain);
       touch-action: none;
       height: 100%;
       -webkit-user-drag: none;

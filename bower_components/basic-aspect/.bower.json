@@ -1,15 +1,15 @@
 {
   "name": "basic-aspect",
   "description": "An aspect of a component: a separable piece of component appearance or behavior that can be combined at runtime to produce an aggregate user experience.",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "license": "MIT",
   "main": "basic-aspect.html",
   "dependencies": {
-    "basic-shared": "basic-web-components/basic-shared#0.6.3",
+    "basic-shared": "basic-web-components/basic-shared#0.6.4",
     "polymer": "Polymer/polymer#^1.1"
   },
   "devDependencies": {
-    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.3",
+    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.4",
     "web-component-tester": "*"
   },
   "keywords": [
@@ -20,13 +20,13 @@
     "/test/"
   ],
   "homepage": "https://github.com/basic-web-components/basic-aspect",
-  "_release": "0.6.3",
+  "_release": "0.6.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.6.3",
-    "commit": "bc8952f48e8941bc96466086b672da0a0b0fe712"
+    "tag": "v0.6.4",
+    "commit": "0948782a0b911b95bfa50888591ee099bffd7bbb"
   },
   "_source": "git://github.com/basic-web-components/basic-aspect.git",
-  "_target": "0.6.3",
+  "_target": "0.6.4",
   "_originalSource": "basic-web-components/basic-aspect"
 }

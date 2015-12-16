@@ -1,15 +1,15 @@
 {
   "name": "basic-direction-selection",
   "description": "Aspect which maps direction semantics (goLeft, goRight, etc.) to selection semantics (selectPrevious, selectNext, etc.).",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "license": "MIT",
   "main": "basic-direction-selection.html",
   "dependencies": {
-    "basic-aspect": "basic-web-components/basic-aspect#0.6.3",
+    "basic-aspect": "basic-web-components/basic-aspect#0.6.4",
     "polymer": "Polymer/polymer#^1.1"
   },
   "devDependencies": {
-    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.3",
+    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.4",
     "web-component-tester": "*"
   },
   "keywords": [
@@ -20,13 +20,13 @@
     "/test/"
   ],
   "homepage": "https://github.com/basic-web-components/basic-direction-selection",
-  "_release": "0.6.3",
+  "_release": "0.6.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.6.3",
-    "commit": "4f7f7b571be8a87f39980da78f9cef10d8d1614f"
+    "tag": "v0.6.4",
+    "commit": "363cf38f5ee45e148a9e8f8b9b7d15d791212ae9"
   },
   "_source": "git://github.com/basic-web-components/basic-direction-selection.git",
-  "_target": "0.6.3",
+  "_target": "0.6.4",
   "_originalSource": "basic-web-components/basic-direction-selection"
 }

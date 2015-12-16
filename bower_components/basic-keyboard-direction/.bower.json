@@ -1,15 +1,15 @@
 {
   "name": "basic-keyboard-direction",
   "description": "Aspect which maps direction keys (Left, Right, etc.) to direction semantics (goLeft, goRight, etc.).",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "license": "MIT",
   "main": "basic-keyboard-direction.html",
   "dependencies": {
-    "basic-aspect": "basic-web-components/basic-aspect#0.6.3",
+    "basic-aspect": "basic-web-components/basic-aspect#0.6.4",
     "polymer": "Polymer/polymer#^1.1"
   },
   "devDependencies": {
-    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.3",
+    "basic-framed-content": "basic-web-components/basic-framed-content#0.6.4",
     "web-component-tester": "*"
   },
   "keywords": [
@@ -20,13 +20,13 @@
     "/test/"
   ],
   "homepage": "https://github.com/basic-web-components/basic-keyboard-direction",
-  "_release": "0.6.3",
+  "_release": "0.6.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.6.3",
-    "commit": "d6040b855db4ae4d2e5d2e4d54e0ccd3185fd304"
+    "tag": "v0.6.4",
+    "commit": "9f8955ef115f733d2d9c3fd24023d053fdc6baaf"
   },
   "_source": "git://github.com/basic-web-components/basic-keyboard-direction.git",
-  "_target": "0.6.3",
+  "_target": "0.6.4",
   "_originalSource": "basic-web-components/basic-keyboard-direction"
 }
