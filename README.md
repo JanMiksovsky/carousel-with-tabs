@@ -17,3 +17,7 @@ against an attribute defined by a non-Polymer element. In this case, the
 both components support the same convention: when a property backing an
 attribute changes, the component raises an event. The event's name is the
 attribute's name, plus `-changed`, e.g., `selected-index-changed`.
+
+Note that this binding works in both directions: clicking on a tab changes
+the image shown and, in the other direction, using touch/keyboard/trackpad to
+change the image shown updates the selected tab.
