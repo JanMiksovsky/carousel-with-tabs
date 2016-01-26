@@ -1,0 +1,10 @@
+{
+  "name": "carousel-with-tabs",
+  "description": "Demonstration of Basic Web Component and Polymer component interop",
+  "version": "0.0.0",
+  "repository": "https://github.com/basic-web-components/carousel-with-tabs",
+  "license": "MIT",
+  "dependencies": {
+    "basic-carousel": "^0.7.0"
+  }
+}

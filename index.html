@@ -5,11 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>carousel-with-tabs</title>
-  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
   <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
-  <link rel="import" href="bower_components/basic-arrow-direction/basic-arrow-direction.html">
-  <link rel="import" href="bower_components/basic-carousel/basic-carousel.html">
-  <link rel="import" href="bower_components/basic-page-dots/basic-page-dots.html">
+  <script src="node_modules/basic-carousel/dist/basic-carousel.js"></script>
 
   <style>
   html {
@@ -34,7 +32,6 @@
     margin: 0;
   }
 
-  basic-framed-content,
   [target="child"] {
     display: -webkit-flex;
     display: flex;
@@ -52,24 +49,20 @@
 
 <body unresolved>
   <template is="dom-bind">
-    <paper-tabs selected="{{selected}}">
+    <paper-tabs selected="{{selected}}"> -->
       <paper-tab>Image 1</paper-tab>
       <paper-tab>Image 2</paper-tab>
       <paper-tab>Image 3</paper-tab>
       <paper-tab>Image 4</paper-tab>
       <paper-tab>Image 5</paper-tab>
     </paper-tabs>
-    <basic-arrow-direction target="child" class="overlay" selected-index="{{selected}}">
-      <basic-page-dots target="child">
-        <basic-carousel>
-          <img src="http://hosting.component.kitchen/resources/images/image1.jpg" alt="Lake">
-          <img src="http://hosting.component.kitchen/resources/images/image2.jpg" alt="Horses">
-          <img src="http://hosting.component.kitchen/resources/images/image6.jpg" alt="Wheat">
-          <img src="http://hosting.component.kitchen/resources/images/image3.jpg" alt="Mountain">
-          <img src="http://hosting.component.kitchen/resources/images/image7.jpg" alt="Palm tree">
-        </basic-carousel>
-      </basic-page-dots>
-    </basic-arrow-direction>
+    <basic-carousel selected-index="{{selected}}">
+      <img src="http://hosting.component.kitchen/resources/images/image1.jpg" alt="Lake">
+      <img src="http://hosting.component.kitchen/resources/images/image2.jpg" alt="Horses">
+      <img src="http://hosting.component.kitchen/resources/images/image6.jpg" alt="Wheat">
+      <img src="http://hosting.component.kitchen/resources/images/image3.jpg" alt="Mountain">
+      <img src="http://hosting.component.kitchen/resources/images/image7.jpg" alt="Palm tree">
+    </basic-carousel>
   </template>
 </body>
 
