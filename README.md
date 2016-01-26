@@ -4,6 +4,8 @@ Demonstration showing a basic-carousel (a JavaScript-based component in the
 [Basic Web Components](https://github.com/basic-web-components/basic-web-components)
 project) being used with paper-tabs (a Polymer-based component).
 
+[Live demo](http://basicwebcomponents.org/carousel-with-tabs/)
+
 This demonstration is meant to confirm that the standard nature of web
 components permits interoperability, not to say that this particular combination
 of user interface elements is necessarily beautiful or useful.
